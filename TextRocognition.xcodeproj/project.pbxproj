@@ -16,6 +16,8 @@
 		CE8B1CC2228FC2F4000C1939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8B1CC0228FC2F4000C1939 /* LaunchScreen.storyboard */; };
 		CE8B1CCA22905A3F000C1939 /* TranslationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B1CC922905A3F000C1939 /* TranslationData.swift */; };
 		CE8B1CCC2292F30B000C1939 /* AlertPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B1CCB2292F30B000C1939 /* AlertPopup.swift */; };
+		CEDEA33322942E7E007F4DA2 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA33222942E7E007F4DA2 /* StoryViewController.swift */; };
+		CEDEA335229432B6007F4DA2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDEA334229432B6007F4DA2 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CE8B1CC3228FC2F4000C1939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8B1CC922905A3F000C1939 /* TranslationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationData.swift; sourceTree = "<group>"; };
 		CE8B1CCB2292F30B000C1939 /* AlertPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopup.swift; sourceTree = "<group>"; };
+		CEDEA33222942E7E007F4DA2 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		CEDEA334229432B6007F4DA2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E28A64503EEA534DA1B30357 /* Pods-TextRocognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRocognition.debug.xcconfig"; path = "Target Support Files/Pods-TextRocognition/Pods-TextRocognition.debug.xcconfig"; sourceTree = "<group>"; };
 		FE39063139BB277F62C8FC26 /* Pods-TextRocognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRocognition.release.xcconfig"; path = "Target Support Files/Pods-TextRocognition/Pods-TextRocognition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +97,8 @@
 				CE8B1CBB228FC2B5000C1939 /* TextRocognition.xcdatamodeld */,
 				CE8B1CC922905A3F000C1939 /* TranslationData.swift */,
 				CE8B1CCB2292F30B000C1939 /* AlertPopup.swift */,
+				CEDEA33222942E7E007F4DA2 /* StoryViewController.swift */,
+				CEDEA334229432B6007F4DA2 /* TableViewCell.swift */,
 			);
 			path = TextRocognition;
 			sourceTree = "<group>";
@@ -219,10 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDEA33322942E7E007F4DA2 /* StoryViewController.swift in Sources */,
 				CE8B1CB7228FC2B4000C1939 /* ViewController.swift in Sources */,
 				CE8B1CCA22905A3F000C1939 /* TranslationData.swift in Sources */,
 				CE8B1CBD228FC2B5000C1939 /* TextRocognition.xcdatamodeld in Sources */,
 				CE8B1CCC2292F30B000C1939 /* AlertPopup.swift in Sources */,
+				CEDEA335229432B6007F4DA2 /* TableViewCell.swift in Sources */,
 				CE8B1CB5228FC2B4000C1939 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
