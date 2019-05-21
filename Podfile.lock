@@ -1,0 +1,20 @@
+PODS:
+  - IBMWatsonLanguageTranslatorV3 (2.0.3):
+    - IBMWatsonRestKit (~> 3.0.0)
+  - IBMWatsonRestKit (3.0.1)
+
+DEPENDENCIES:
+  - IBMWatsonLanguageTranslatorV3 (~> 2.0.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMWatsonLanguageTranslatorV3
+    - IBMWatsonRestKit
+
+SPEC CHECKSUMS:
+  IBMWatsonLanguageTranslatorV3: 99bdebb74128349c1e239fbe1ca875afab2ea073
+  IBMWatsonRestKit: 73dbe7b437bfefa6105ccee6795c1ada2ef80594
+
+PODFILE CHECKSUM: a62c6e3d21b500de4635e0f3b49a29803f9ae506
+
+COCOAPODS: 1.6.2

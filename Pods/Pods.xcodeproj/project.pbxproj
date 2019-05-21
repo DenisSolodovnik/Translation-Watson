@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D11F3C8D4EA4B9FA5EA8116320A9C63 /* RestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CADCBCC3E1D7BED3CBE94C7CD3B4C5D /* RestResponse.swift */; };
+		1658D5C01A2936437525E6AB81470795 /* Pods-TextRocognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DD3461843CC132B9CF8E2FA89E3BFC /* Pods-TextRocognition-dummy.m */; };
+		173895EFF5DF05689073704858AB1E7E /* IdentifiedLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAF5099849F629D4257129EB8D0484 /* IdentifiedLanguages.swift */; };
+		19DED0F5C7EE3051C2CDE16F1271E34D /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF103D1B3ACB3BF296508A4202E9F9 /* CodableExtensions.swift */; };
+		21046AF301ECFF743639535960666AF0 /* IBMWatsonLanguageTranslatorV3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC767A33F2613F7487ABFE390DD1934 /* IBMWatsonLanguageTranslatorV3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D822E8781B22C3AD8F8CB90A6CC7280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B27F252182F387DCABDD73CF347E69 /* Foundation.framework */; };
+		4DF32EC19E58B7973AE7671958E4B5D9 /* DeleteModelResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AA0DCF80B012A474B1C7D4462C9E7 /* DeleteModelResult.swift */; };
+		5D1F99587010808A8BE90885E52C67B2 /* IBMWatsonLanguageTranslatorV3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A5A9155220119FC21168DD71F649A0 /* IBMWatsonLanguageTranslatorV3-dummy.m */; };
+		60B2218EFFB1C5003922377E410718AB /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B649446F4A6F6C363564184CB3D29 /* JSON.swift */; };
+		68B701F9004271F4A2C7772F55667AA1 /* TranslateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FCA8F1137EC1EF330FC3E8F1C9F0B /* TranslateRequest.swift */; };
+		83C65BA8ADF0FF80A622A67A7DED1538 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD09A9B5DF8DC85AC65E7D821F5BBB8 /* Authentication.swift */; };
+		8465E07EAE84751F4BD01C38F7173A93 /* IBMWatsonRestKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F9EF5A77F9E37A319D815E92BB1DDF /* IBMWatsonRestKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8918CFCF6D80EC16186641561B66A4DF /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F38B91FDFE7B6386F9BA1BC712460 /* MultipartFormData.swift */; };
+		9F3CC740851C1D2A74EA5D8066A518BC /* Pods-TextRocognition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC08F3C7C97AA35FCAF73E69F3C16A3 /* Pods-TextRocognition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D0E0C15805078F65EED8F48FBA6F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B27F252182F387DCABDD73CF347E69 /* Foundation.framework */; };
+		AC887E658193FD5B9B4D0968C34BFCDE /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D64D8FDF1C837FEE8A8378C52F0E0A3 /* RestKit.framework */; };
+		B30FECEC3B771506AAC4BEC32FECA542 /* RestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEBDFF99C918D04439EBB6E1DAE0AC9 /* RestRequest.swift */; };
+		BB8F65F312F86DDAF62906E721E29156 /* IdentifiableLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC6574E9AD8C13D803E2220F80E3DC /* IdentifiableLanguage.swift */; };
+		C2A5B6545CEE0427834BD59015D82D60 /* TranslationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452AC2AEFC5AE354009477C1931AAAEB /* TranslationResult.swift */; };
+		CEFB291EBDA33BBFDD8D73EE072BED4A /* TranslationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBA7C368E3D9684BF3FD2590934704 /* TranslationModels.swift */; };
+		D02E07CF7B5991D8E691E2E36C14CFB8 /* IBMWatsonRestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF479BD7AE85164063A5BB247170BF0 /* IBMWatsonRestKit-dummy.m */; };
+		D3C7C0E6CC0D5FEE08B25E7245F0F99D /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5AE3142A630361D2557662167B2807 /* Shared.swift */; };
+		D83E2A4B4C1CA7A71E096AB754431666 /* TranslationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B52A0947647346DDBFCF9382D38249 /* TranslationModel.swift */; };
+		DA2D2AB6AA64D8B88D86748B3C7EE4D5 /* LanguageTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDE2C0A2DC64BE95223DEF98A03AB3F /* LanguageTranslator.swift */; };
+		DAE5F071A5795464D7E3EB2FD0196C23 /* IdentifiedLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93312F47720008352C73A91EF72C8CA2 /* IdentifiedLanguage.swift */; };
+		E2D086C7EBC8475F673E9DA568AFDC48 /* IdentifiableLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244556EB04C6ADE5D5FDB072401FE40 /* IdentifiableLanguages.swift */; };
+		F31C09924475C757C195D470244DB24A /* RestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6128AF9E5783A7A1BF7233DC43CF38 /* RestError.swift */; };
+		FAB0731665A86EC70005F345D361486E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B27F252182F387DCABDD73CF347E69 /* Foundation.framework */; };
+		FCED15E76C2D173D2BC6FC157A3858AB /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD4D42B6C6160D0C07CE0EE486781D /* Translation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03ADE521E02D6724FC8CF697B90A85AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9129C4FCF6874F3AF71FB1C68B63436E;
+			remoteInfo = IBMWatsonRestKit;
+		};
+		754A811C44B298CD71A00EDD1B514F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9129C4FCF6874F3AF71FB1C68B63436E;
+			remoteInfo = IBMWatsonRestKit;
+		};
+		884292426C7CCDFE7B7AB92D49A247C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C3881EDEBAC5104D2565909F965DA8E;
+			remoteInfo = IBMWatsonLanguageTranslatorV3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDE2C0A2DC64BE95223DEF98A03AB3F /* LanguageTranslator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageTranslator.swift; path = Source/LanguageTranslatorV3/LanguageTranslator.swift; sourceTree = "<group>"; };
+		1E94322D189A9D2CE3FA11F064296AC8 /* IBMWatsonRestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMWatsonRestKit-prefix.pch"; sourceTree = "<group>"; };
+		291F7B8007560452047D83D8A8434B17 /* IBMWatsonRestKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBMWatsonRestKit-Info.plist"; sourceTree = "<group>"; };
+		2F5772D9377FB3D0C457808F2DCEDFC6 /* LanguageTranslator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LanguageTranslator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B27F252182F387DCABDD73CF347E69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38A5A9155220119FC21168DD71F649A0 /* IBMWatsonLanguageTranslatorV3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBMWatsonLanguageTranslatorV3-dummy.m"; sourceTree = "<group>"; };
+		3ACC6574E9AD8C13D803E2220F80E3DC /* IdentifiableLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentifiableLanguage.swift; path = Source/LanguageTranslatorV3/Models/IdentifiableLanguage.swift; sourceTree = "<group>"; };
+		3CC767A33F2613F7487ABFE390DD1934 /* IBMWatsonLanguageTranslatorV3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMWatsonLanguageTranslatorV3-umbrella.h"; sourceTree = "<group>"; };
+		3D64D8FDF1C837FEE8A8378C52F0E0A3 /* RestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBBA7C368E3D9684BF3FD2590934704 /* TranslationModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslationModels.swift; path = Source/LanguageTranslatorV3/Models/TranslationModels.swift; sourceTree = "<group>"; };
+		41AAF5099849F629D4257129EB8D0484 /* IdentifiedLanguages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentifiedLanguages.swift; path = Source/LanguageTranslatorV3/Models/IdentifiedLanguages.swift; sourceTree = "<group>"; };
+		432ED4AB55FE7766C5A973A853934A1D /* Pods-TextRocognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextRocognition.debug.xcconfig"; sourceTree = "<group>"; };
+		452AC2AEFC5AE354009477C1931AAAEB /* TranslationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslationResult.swift; path = Source/LanguageTranslatorV3/Models/TranslationResult.swift; sourceTree = "<group>"; };
+		452F478B4C7BF575F7EE8D2B844CF4D4 /* Pods_TextRocognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextRocognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AF86BF0F6EE057B9DFA8C865BB15AC /* Pods-TextRocognition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextRocognition.modulemap"; sourceTree = "<group>"; };
+		4B5B1A78A7CA51287584A5F5114E92C3 /* IBMWatsonLanguageTranslatorV3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBMWatsonLanguageTranslatorV3-Info.plist"; sourceTree = "<group>"; };
+		4D80E536F6A9E5F167A1AC46B54CCEA4 /* Pods-TextRocognition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextRocognition-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CADCBCC3E1D7BED3CBE94C7CD3B4C5D /* RestResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestResponse.swift; path = Sources/RestKit/RestResponse.swift; sourceTree = "<group>"; };
+		62C7347B25E6E65BE97D82C935F182E5 /* Pods-TextRocognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextRocognition.release.xcconfig"; sourceTree = "<group>"; };
+		65F0C4051B4BD50AB9E69B5CA76CCBBB /* Pods-TextRocognition-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextRocognition-frameworks.sh"; sourceTree = "<group>"; };
+		6A0AA0DCF80B012A474B1C7D4462C9E7 /* DeleteModelResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeleteModelResult.swift; path = Source/LanguageTranslatorV3/Models/DeleteModelResult.swift; sourceTree = "<group>"; };
+		6CD09A9B5DF8DC85AC65E7D821F5BBB8 /* Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = Sources/RestKit/Authentication.swift; sourceTree = "<group>"; };
+		70FD4D42B6C6160D0C07CE0EE486781D /* Translation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Translation.swift; path = Source/LanguageTranslatorV3/Models/Translation.swift; sourceTree = "<group>"; };
+		7AEBDFF99C918D04439EBB6E1DAE0AC9 /* RestRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestRequest.swift; path = Sources/RestKit/RestRequest.swift; sourceTree = "<group>"; };
+		7BA4BB5E01110C2BCBEE2B5F2228E38A /* IBMWatsonLanguageTranslatorV3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBMWatsonLanguageTranslatorV3.modulemap; sourceTree = "<group>"; };
+		81805F067B3F3956756D3DE098AECB36 /* Pods-TextRocognition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextRocognition-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92F9EF5A77F9E37A319D815E92BB1DDF /* IBMWatsonRestKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMWatsonRestKit-umbrella.h"; sourceTree = "<group>"; };
+		93312F47720008352C73A91EF72C8CA2 /* IdentifiedLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentifiedLanguage.swift; path = Source/LanguageTranslatorV3/Models/IdentifiedLanguage.swift; sourceTree = "<group>"; };
+		9A0F38B91FDFE7B6386F9BA1BC712460 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/RestKit/MultipartFormData.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5AE3142A630361D2557662167B2807 /* Shared.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shared.swift; path = Source/SupportingFiles/Shared.swift; sourceTree = "<group>"; };
+		A0CFC4E11E18EA47545F7BBFBF640174 /* RestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C0667A71FB3765A811161A78EFB0AE /* Pods-TextRocognition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextRocognition-Info.plist"; sourceTree = "<group>"; };
+		ACC08F3C7C97AA35FCAF73E69F3C16A3 /* Pods-TextRocognition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextRocognition-umbrella.h"; sourceTree = "<group>"; };
+		B9B52A0947647346DDBFCF9382D38249 /* TranslationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslationModel.swift; path = Source/LanguageTranslatorV3/Models/TranslationModel.swift; sourceTree = "<group>"; };
+		BC6128AF9E5783A7A1BF7233DC43CF38 /* RestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestError.swift; path = Sources/RestKit/RestError.swift; sourceTree = "<group>"; };
+		D56FEB453C1ADD411262F439C595689D /* IBMWatsonLanguageTranslatorV3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMWatsonLanguageTranslatorV3-prefix.pch"; sourceTree = "<group>"; };
+		D61FCA8F1137EC1EF330FC3E8F1C9F0B /* TranslateRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TranslateRequest.swift; path = Source/LanguageTranslatorV3/Models/TranslateRequest.swift; sourceTree = "<group>"; };
+		D63A785E9435A9EAC6950CF94D6062F2 /* IBMWatsonRestKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMWatsonRestKit.xcconfig; sourceTree = "<group>"; };
+		DBE63BDABA73D7EB58DB940D23D21861 /* IBMWatsonLanguageTranslatorV3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMWatsonLanguageTranslatorV3.xcconfig; sourceTree = "<group>"; };
+		DC1B649446F4A6F6C363564184CB3D29 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/RestKit/JSON.swift; sourceTree = "<group>"; };
+		E37268D91072BE7C1D517C54E0D517DA /* IBMWatsonRestKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBMWatsonRestKit.modulemap; sourceTree = "<group>"; };
+		F0DD3461843CC132B9CF8E2FA89E3BFC /* Pods-TextRocognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextRocognition-dummy.m"; sourceTree = "<group>"; };
+		F244556EB04C6ADE5D5FDB072401FE40 /* IdentifiableLanguages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentifiableLanguages.swift; path = Source/LanguageTranslatorV3/Models/IdentifiableLanguages.swift; sourceTree = "<group>"; };
+		F7EF103D1B3ACB3BF296508A4202E9F9 /* CodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtensions.swift; path = Sources/RestKit/CodableExtensions.swift; sourceTree = "<group>"; };
+		FBF479BD7AE85164063A5BB247170BF0 /* IBMWatsonRestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBMWatsonRestKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B52F3BDB170D27A46F35D086DD4C7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D822E8781B22C3AD8F8CB90A6CC7280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCD2EDBCE3224E8276527B46808F2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0731665A86EC70005F345D361486E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8069D6F9611BCA5988690533868FD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D0E0C15805078F65EED8F48FBA6F26 /* Foundation.framework in Frameworks */,
+				AC887E658193FD5B9B4D0968C34BFCDE /* RestKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C6DC1D8885C5900C8FC67493CE4018 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CC13C9F8BB1BB0DDB6C1C400B17D68 /* Pods-TextRocognition */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18CC13C9F8BB1BB0DDB6C1C400B17D68 /* Pods-TextRocognition */ = {
+			isa = PBXGroup;
+			children = (
+				46AF86BF0F6EE057B9DFA8C865BB15AC /* Pods-TextRocognition.modulemap */,
+				81805F067B3F3956756D3DE098AECB36 /* Pods-TextRocognition-acknowledgements.markdown */,
+				4D80E536F6A9E5F167A1AC46B54CCEA4 /* Pods-TextRocognition-acknowledgements.plist */,
+				F0DD3461843CC132B9CF8E2FA89E3BFC /* Pods-TextRocognition-dummy.m */,
+				65F0C4051B4BD50AB9E69B5CA76CCBBB /* Pods-TextRocognition-frameworks.sh */,
+				A8C0667A71FB3765A811161A78EFB0AE /* Pods-TextRocognition-Info.plist */,
+				ACC08F3C7C97AA35FCAF73E69F3C16A3 /* Pods-TextRocognition-umbrella.h */,
+				432ED4AB55FE7766C5A973A853934A1D /* Pods-TextRocognition.debug.xcconfig */,
+				62C7347B25E6E65BE97D82C935F182E5 /* Pods-TextRocognition.release.xcconfig */,
+			);
+			name = "Pods-TextRocognition";
+			path = "Target Support Files/Pods-TextRocognition";
+			sourceTree = "<group>";
+		};
+		33CC79EAC7B707A40C0FEC3876625CD0 /* IBMWatsonLanguageTranslatorV3 */ = {
+			isa = PBXGroup;
+			children = (
+				6A0AA0DCF80B012A474B1C7D4462C9E7 /* DeleteModelResult.swift */,
+				3ACC6574E9AD8C13D803E2220F80E3DC /* IdentifiableLanguage.swift */,
+				F244556EB04C6ADE5D5FDB072401FE40 /* IdentifiableLanguages.swift */,
+				93312F47720008352C73A91EF72C8CA2 /* IdentifiedLanguage.swift */,
+				41AAF5099849F629D4257129EB8D0484 /* IdentifiedLanguages.swift */,
+				0DDE2C0A2DC64BE95223DEF98A03AB3F /* LanguageTranslator.swift */,
+				9F5AE3142A630361D2557662167B2807 /* Shared.swift */,
+				D61FCA8F1137EC1EF330FC3E8F1C9F0B /* TranslateRequest.swift */,
+				70FD4D42B6C6160D0C07CE0EE486781D /* Translation.swift */,
+				B9B52A0947647346DDBFCF9382D38249 /* TranslationModel.swift */,
+				3DBBA7C368E3D9684BF3FD2590934704 /* TranslationModels.swift */,
+				452AC2AEFC5AE354009477C1931AAAEB /* TranslationResult.swift */,
+				C0718B01A6FE4085C4F013D37E353C1C /* Support Files */,
+			);
+			path = IBMWatsonLanguageTranslatorV3;
+			sourceTree = "<group>";
+		};
+		4ED120586FD94372244DB47E135EAAF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F5772D9377FB3D0C457808F2DCEDFC6 /* LanguageTranslator.framework */,
+				452F478B4C7BF575F7EE8D2B844CF4D4 /* Pods_TextRocognition.framework */,
+				A0CFC4E11E18EA47545F7BBFBF640174 /* RestKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51154DCE72A98358B0AB047837C4DE38 /* IBMWatsonRestKit */ = {
+			isa = PBXGroup;
+			children = (
+				6CD09A9B5DF8DC85AC65E7D821F5BBB8 /* Authentication.swift */,
+				F7EF103D1B3ACB3BF296508A4202E9F9 /* CodableExtensions.swift */,
+				DC1B649446F4A6F6C363564184CB3D29 /* JSON.swift */,
+				9A0F38B91FDFE7B6386F9BA1BC712460 /* MultipartFormData.swift */,
+				BC6128AF9E5783A7A1BF7233DC43CF38 /* RestError.swift */,
+				7AEBDFF99C918D04439EBB6E1DAE0AC9 /* RestRequest.swift */,
+				5CADCBCC3E1D7BED3CBE94C7CD3B4C5D /* RestResponse.swift */,
+				C3D537A9CCBBFB4B610D64EA3AB02465 /* Support Files */,
+			);
+			path = IBMWatsonRestKit;
+			sourceTree = "<group>";
+		};
+		55C3461D8C7869DBB5D454D380DF8E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33CC79EAC7B707A40C0FEC3876625CD0 /* IBMWatsonLanguageTranslatorV3 */,
+				51154DCE72A98358B0AB047837C4DE38 /* IBMWatsonRestKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAFEE43964B7F2DA7A0E643A9EAADFB3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37B27F252182F387DCABDD73CF347E69 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0718B01A6FE4085C4F013D37E353C1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA4BB5E01110C2BCBEE2B5F2228E38A /* IBMWatsonLanguageTranslatorV3.modulemap */,
+				DBE63BDABA73D7EB58DB940D23D21861 /* IBMWatsonLanguageTranslatorV3.xcconfig */,
+				38A5A9155220119FC21168DD71F649A0 /* IBMWatsonLanguageTranslatorV3-dummy.m */,
+				4B5B1A78A7CA51287584A5F5114E92C3 /* IBMWatsonLanguageTranslatorV3-Info.plist */,
+				D56FEB453C1ADD411262F439C595689D /* IBMWatsonLanguageTranslatorV3-prefix.pch */,
+				3CC767A33F2613F7487ABFE390DD1934 /* IBMWatsonLanguageTranslatorV3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBMWatsonLanguageTranslatorV3";
+			sourceTree = "<group>";
+		};
+		C3D537A9CCBBFB4B610D64EA3AB02465 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E37268D91072BE7C1D517C54E0D517DA /* IBMWatsonRestKit.modulemap */,
+				D63A785E9435A9EAC6950CF94D6062F2 /* IBMWatsonRestKit.xcconfig */,
+				FBF479BD7AE85164063A5BB247170BF0 /* IBMWatsonRestKit-dummy.m */,
+				291F7B8007560452047D83D8A8434B17 /* IBMWatsonRestKit-Info.plist */,
+				1E94322D189A9D2CE3FA11F064296AC8 /* IBMWatsonRestKit-prefix.pch */,
+				92F9EF5A77F9E37A319D815E92BB1DDF /* IBMWatsonRestKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBMWatsonRestKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E6A969088F64E6C80F96339EAD57585C /* Frameworks */,
+				55C3461D8C7869DBB5D454D380DF8E73 /* Pods */,
+				4ED120586FD94372244DB47E135EAAF3 /* Products */,
+				10C6DC1D8885C5900C8FC67493CE4018 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A969088F64E6C80F96339EAD57585C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D64D8FDF1C837FEE8A8378C52F0E0A3 /* RestKit.framework */,
+				AAFEE43964B7F2DA7A0E643A9EAADFB3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32E58EC1C2C9E1E42FED4C0B81D09826 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8465E07EAE84751F4BD01C38F7173A93 /* IBMWatsonRestKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F3EE0BF300A44F689A54F16C00F341 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3CC740851C1D2A74EA5D8066A518BC /* Pods-TextRocognition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E44CD77E38745CF12BB735D402633D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21046AF301ECFF743639535960666AF0 /* IBMWatsonLanguageTranslatorV3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B57C8EF33F8312E26266C7969708E9D /* Pods-TextRocognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79240B528C2B131743FE5A6668B0E5AD /* Build configuration list for PBXNativeTarget "Pods-TextRocognition" */;
+			buildPhases = (
+				B3F3EE0BF300A44F689A54F16C00F341 /* Headers */,
+				613B4A20FF974AF55F08DF21CEB8077E /* Sources */,
+				ECCD2EDBCE3224E8276527B46808F2FE /* Frameworks */,
+				7B3C2DE10ADFDC4BE9FC1F14DEAA59CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14ECDD65FB6F3AEA5E621FD7A28B1A3 /* PBXTargetDependency */,
+				A19A393D49F05265C360215878FAE4E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TextRocognition";
+			productName = "Pods-TextRocognition";
+			productReference = 452F478B4C7BF575F7EE8D2B844CF4D4 /* Pods_TextRocognition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C3881EDEBAC5104D2565909F965DA8E /* IBMWatsonLanguageTranslatorV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDE8A05685E17DC11E54C4ADDEF00BD /* Build configuration list for PBXNativeTarget "IBMWatsonLanguageTranslatorV3" */;
+			buildPhases = (
+				D1E44CD77E38745CF12BB735D402633D /* Headers */,
+				EFA0F414F42877D3A610E5CB87D4A4D7 /* Sources */,
+				F8069D6F9611BCA5988690533868FD3D /* Frameworks */,
+				62CFEE0F364BD430A9EC91EB9EDF6234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E1F6FAC339D546F8AFD0435FDA062FE /* PBXTargetDependency */,
+			);
+			name = IBMWatsonLanguageTranslatorV3;
+			productName = IBMWatsonLanguageTranslatorV3;
+			productReference = 2F5772D9377FB3D0C457808F2DCEDFC6 /* LanguageTranslator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9129C4FCF6874F3AF71FB1C68B63436E /* IBMWatsonRestKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033333B475C53915F183B9215EE18CDC /* Build configuration list for PBXNativeTarget "IBMWatsonRestKit" */;
+			buildPhases = (
+				32E58EC1C2C9E1E42FED4C0B81D09826 /* Headers */,
+				BB3932F4F5CF9C5AF51296800743B831 /* Sources */,
+				2B52F3BDB170D27A46F35D086DD4C7A0 /* Frameworks */,
+				00AF288E1723AEF7C7774E6C54AB20CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBMWatsonRestKit;
+			productName = IBMWatsonRestKit;
+			productReference = A0CFC4E11E18EA47545F7BBFBF640174 /* RestKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					7C3881EDEBAC5104D2565909F965DA8E = {
+						LastSwiftMigration = 1020;
+					};
+					9129C4FCF6874F3AF71FB1C68B63436E = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4ED120586FD94372244DB47E135EAAF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C3881EDEBAC5104D2565909F965DA8E /* IBMWatsonLanguageTranslatorV3 */,
+				9129C4FCF6874F3AF71FB1C68B63436E /* IBMWatsonRestKit */,
+				3B57C8EF33F8312E26266C7969708E9D /* Pods-TextRocognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00AF288E1723AEF7C7774E6C54AB20CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62CFEE0F364BD430A9EC91EB9EDF6234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3C2DE10ADFDC4BE9FC1F14DEAA59CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613B4A20FF974AF55F08DF21CEB8077E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1658D5C01A2936437525E6AB81470795 /* Pods-TextRocognition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3932F4F5CF9C5AF51296800743B831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C65BA8ADF0FF80A622A67A7DED1538 /* Authentication.swift in Sources */,
+				19DED0F5C7EE3051C2CDE16F1271E34D /* CodableExtensions.swift in Sources */,
+				D02E07CF7B5991D8E691E2E36C14CFB8 /* IBMWatsonRestKit-dummy.m in Sources */,
+				60B2218EFFB1C5003922377E410718AB /* JSON.swift in Sources */,
+				8918CFCF6D80EC16186641561B66A4DF /* MultipartFormData.swift in Sources */,
+				F31C09924475C757C195D470244DB24A /* RestError.swift in Sources */,
+				B30FECEC3B771506AAC4BEC32FECA542 /* RestRequest.swift in Sources */,
+				0D11F3C8D4EA4B9FA5EA8116320A9C63 /* RestResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA0F414F42877D3A610E5CB87D4A4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF32EC19E58B7973AE7671958E4B5D9 /* DeleteModelResult.swift in Sources */,
+				5D1F99587010808A8BE90885E52C67B2 /* IBMWatsonLanguageTranslatorV3-dummy.m in Sources */,
+				BB8F65F312F86DDAF62906E721E29156 /* IdentifiableLanguage.swift in Sources */,
+				E2D086C7EBC8475F673E9DA568AFDC48 /* IdentifiableLanguages.swift in Sources */,
+				DAE5F071A5795464D7E3EB2FD0196C23 /* IdentifiedLanguage.swift in Sources */,
+				173895EFF5DF05689073704858AB1E7E /* IdentifiedLanguages.swift in Sources */,
+				DA2D2AB6AA64D8B88D86748B3C7EE4D5 /* LanguageTranslator.swift in Sources */,
+				D3C7C0E6CC0D5FEE08B25E7245F0F99D /* Shared.swift in Sources */,
+				68B701F9004271F4A2C7772F55667AA1 /* TranslateRequest.swift in Sources */,
+				FCED15E76C2D173D2BC6FC157A3858AB /* Translation.swift in Sources */,
+				D83E2A4B4C1CA7A71E096AB754431666 /* TranslationModel.swift in Sources */,
+				CEFB291EBDA33BBFDD8D73EE072BED4A /* TranslationModels.swift in Sources */,
+				C2A5B6545CEE0427834BD59015D82D60 /* TranslationResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E1F6FAC339D546F8AFD0435FDA062FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMWatsonRestKit;
+			target = 9129C4FCF6874F3AF71FB1C68B63436E /* IBMWatsonRestKit */;
+			targetProxy = 03ADE521E02D6724FC8CF697B90A85AA /* PBXContainerItemProxy */;
+		};
+		A14ECDD65FB6F3AEA5E621FD7A28B1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMWatsonLanguageTranslatorV3;
+			target = 7C3881EDEBAC5104D2565909F965DA8E /* IBMWatsonLanguageTranslatorV3 */;
+			targetProxy = 884292426C7CCDFE7B7AB92D49A247C4 /* PBXContainerItemProxy */;
+		};
+		A19A393D49F05265C360215878FAE4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMWatsonRestKit;
+			target = 9129C4FCF6874F3AF71FB1C68B63436E /* IBMWatsonRestKit */;
+			targetProxy = 754A811C44B298CD71A00EDD1B514F74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		139ABEE1498266D6FBABF41D0D6D440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432ED4AB55FE7766C5A973A853934A1D /* Pods-TextRocognition.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextRocognition/Pods-TextRocognition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextRocognition/Pods-TextRocognition.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C86E3891E72A5BE8102B737A40C80AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63A785E9435A9EAC6950CF94D6062F2 /* IBMWatsonRestKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMWatsonRestKit/IBMWatsonRestKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMWatsonRestKit/IBMWatsonRestKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMWatsonRestKit/IBMWatsonRestKit.modulemap";
+				PRODUCT_MODULE_NAME = RestKit;
+				PRODUCT_NAME = RestKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		579C15062F7F81A0D1A71E535CAD470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C7347B25E6E65BE97D82C935F182E5 /* Pods-TextRocognition.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextRocognition/Pods-TextRocognition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextRocognition/Pods-TextRocognition.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63F5BEDC7F2D52E56E8A5798FCFF35DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE63BDABA73D7EB58DB940D23D21861 /* IBMWatsonLanguageTranslatorV3.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMWatsonLanguageTranslatorV3/IBMWatsonLanguageTranslatorV3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMWatsonLanguageTranslatorV3/IBMWatsonLanguageTranslatorV3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMWatsonLanguageTranslatorV3/IBMWatsonLanguageTranslatorV3.modulemap";
+				PRODUCT_MODULE_NAME = LanguageTranslator;
+				PRODUCT_NAME = LanguageTranslator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99B97FA77341F111DB3FE4B4EBE01814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63A785E9435A9EAC6950CF94D6062F2 /* IBMWatsonRestKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMWatsonRestKit/IBMWatsonRestKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMWatsonRestKit/IBMWatsonRestKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMWatsonRestKit/IBMWatsonRestKit.modulemap";
+				PRODUCT_MODULE_NAME = RestKit;
+				PRODUCT_NAME = RestKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B154BAB131A1BF5A9453A5C2813730E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE63BDABA73D7EB58DB940D23D21861 /* IBMWatsonLanguageTranslatorV3.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IBMWatsonLanguageTranslatorV3/IBMWatsonLanguageTranslatorV3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IBMWatsonLanguageTranslatorV3/IBMWatsonLanguageTranslatorV3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IBMWatsonLanguageTranslatorV3/IBMWatsonLanguageTranslatorV3.modulemap";
+				PRODUCT_MODULE_NAME = LanguageTranslator;
+				PRODUCT_NAME = LanguageTranslator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033333B475C53915F183B9215EE18CDC /* Build configuration list for PBXNativeTarget "IBMWatsonRestKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B97FA77341F111DB3FE4B4EBE01814 /* Debug */,
+				2C86E3891E72A5BE8102B737A40C80AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDE8A05685E17DC11E54C4ADDEF00BD /* Build configuration list for PBXNativeTarget "IBMWatsonLanguageTranslatorV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F5BEDC7F2D52E56E8A5798FCFF35DF /* Debug */,
+				B154BAB131A1BF5A9453A5C2813730E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79240B528C2B131743FE5A6668B0E5AD /* Build configuration list for PBXNativeTarget "Pods-TextRocognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139ABEE1498266D6FBABF41D0D6D440D /* Debug */,
+				579C15062F7F81A0D1A71E535CAD470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
