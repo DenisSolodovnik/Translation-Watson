@@ -30,6 +30,10 @@ class ViewController: UIViewController {
         outputTextField.layer.borderWidth = 1
         outputTextField.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
         
+        if let error = TranslationData.delegate.loadHistory() {
+            AlertPopup.delegate.alert(view: self, message: error, type: .Error)
+        }
+        
         setLanguages()
     }
     @IBAction func onLanguageSelect(_ sender: Any) {

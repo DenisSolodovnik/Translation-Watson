@@ -42,11 +42,11 @@ class TranslationData: NSObject {
     }
     // Массив запросов (история)
     private var _history = [NSManagedObject]()
-//    var history: [(id: Int, input: String, output: String, translateMode: String)] {
-//        get {
-//            return _history
-//        }
-//    }
+    var history: [NSManagedObject] {
+        get {
+            return _history
+        }
+    }
     
     var historyLenght: Int {
         get {
@@ -60,13 +60,27 @@ class TranslationData: NSObject {
         _transleteMode = ("", "")
     }
     
-    func addHistory(entry: (id: Int, input: String, output: String, translateMode: String)) -> String? {
-        //        _history.append(entry)
-        
+    func loadHistory() -> String? {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return "Cant save data"
+            return "Internal error"
         }
-        //        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let managedContext = appDelegate.persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "RequestData")
+        
+        do {
+            _history = try managedContext.fetch(fetchRequest)
+        } catch let error as NSError {
+            return "Could not fetch. \(error), \(error.userInfo)"
+        }
+        
+        return nil
+    }
+    
+    func addHistory(entry: (id: Int, input: String, output: String, translateMode: String)) -> String? {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return "Internal error"
+        }
         let managedContext = appDelegate.persistentContainer.viewContext
         
         let entity = NSEntityDescription.entity(forEntityName: "RequestData", in: managedContext)
@@ -75,7 +89,7 @@ class TranslationData: NSObject {
         requestData.setValue(entry.id, forKey: "id")
         requestData.setValue(entry.input, forKey: "fromString")
         requestData.setValue(entry.output, forKey: "toString")
-        requestData.setValue(entry.translateMode, forKey: "translateMode")
+        requestData.setValue(entry.translateMode, forKey: "translationMode")
         
         do {
             try managedContext.save()
